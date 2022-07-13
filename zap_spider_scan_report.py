@@ -6,7 +6,7 @@ target = 'http://localhost:8080' #target url for scan
 
 zap = ZAPv2(proxies={'http':'http://localhost:8090','https':'http://localhost:8090'})  
 
-apikey = 'q3bb8vid3divcqe81g4f041f7p'
+apikey = 'APIKEY'
 print 'Accessing target %s' % target
 zap.urlopen(target)
 
