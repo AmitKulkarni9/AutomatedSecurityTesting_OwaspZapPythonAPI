@@ -2,7 +2,7 @@
 
 #Go to OWASP/Zed Attack Proxy directory 
 cd ZedAttackProxy
-./zap.sh -daemon -port 8090 -host localhost -config api.apikey = 'q3bb8vid3divcqe81g4f041f7p' & 
+./zap.sh -daemon -port 8090 -host localhost -config api.apikey = 'APIKEY' & 
 echo Let ZAP daemon mode start up... 
 sleep 20
 ##Go to nightwatch directory and start regression test-suites
