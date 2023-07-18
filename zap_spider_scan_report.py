@@ -33,8 +33,8 @@ print 'Hosts: ' + ', '.join(zap.core.hosts)
 print 'Alerts: '
 pprint (zap.core.alerts()) #prints all alerts. can be commented
 # HTML Report
-with open ('report.html', 'w') as f:f.write(zap.core.htmlreport(apikey = 'q3bb8vid3divcqe81g4f041f7p'))
+with open ('report.html', 'w') as f:f.write(zap.core.htmlreport(apikey = apikey))
 # XML Report
-with open ('report.xml', 'w') as f:f.write(zap.core.xmlreport(apikey = 'q3bb8vid3divcqe81g4f041f7p'))
+with open ('report.xml', 'w') as f:f.write(zap.core.xmlreport(apikey = apikey))
 
 zap.core.shutdown()
